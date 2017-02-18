@@ -16,4 +16,13 @@ Laravel Image Moo, helper image processing library (codeigniter image_moo librar
             //...
         ],
 
+1. example usage
+        
+        use Jaykeren\ImageMoo\Facades\ImageMoo;
+        
+        ImageMoo::load('/tmp/test.jpg')
+                ->resize_crop(200, 200)
+                ->set_jpeg_quality(60)
+                ->save('/tmp/test_cropped.jpg', true);
+
 1. you're ready to go
