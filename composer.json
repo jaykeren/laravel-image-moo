@@ -1,0 +1,24 @@
+{
+  "name": "jaykeren/laravel-image-moo",
+  "description": "Laravel Image Moo, helper image processing library (codeigniter image_moo library) created by mat-moo (http://www.matmoo.com/digital-dribble/codeigniter/image_moo).",
+  "keywords": ["laravel", "image moo", "image_moo", "PHP Image manipulation class", "image processing", "crop", "resize", "watermark"],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Akhmad Jazuli",
+      "email": "jaykeren@gmail.com"
+    }
+  ],
+  "homepage": "http://www.akhmadjazuli.com",
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/support": "5.4.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Jaykeren\\ImageMoo\\": "src"
+    }
+  }
+}
