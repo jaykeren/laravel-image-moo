@@ -2,6 +2,7 @@
 
 namespace Jaykeren\ImageMoo\Resources;
 
+
 /*
  * Image_Moo library
  *
