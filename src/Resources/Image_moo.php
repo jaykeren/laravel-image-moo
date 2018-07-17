@@ -6,6 +6,8 @@ namespace Jaykeren\ImageMoo\Resources;
 /*
  * Image_Moo library
  *
+ * Edited by jaykeren@gmail.com
+ *
  * Written due to image_lib not being so nice when you have to do multiple things to a single image!
  *
  * @license		MIT License -
